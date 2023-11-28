@@ -1,0 +1,25 @@
+#l1{
+    font-size: 25px !important; 
+}
+
+#l2:hover{
+background-color: red;
+}
+
+#l2{
+    box-shadow: 5px 7px 6px green;
+}
+@keyframes Aditya {
+    from{
+        box-shadow: 5px 5px 15px red;
+    }
+to{
+    box-shadow: 5px 5px 15px orange;
+}
+}
+
+canvas{
+    animation-name: Aditya;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
